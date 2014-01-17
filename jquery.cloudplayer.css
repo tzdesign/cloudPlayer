@@ -1,0 +1,54 @@
+.cloudplayer-player{
+    width:400px;
+    padding:25px 30px;
+    box-shadow: 0 9px 19px -5px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    background:#fff;
+}
+.cloudplayer-progress-bar{
+    height:10px;
+    background:#bcbcbc;
+    margin:15px 0;
+}
+.cloudplayer-control{
+    width:40px;
+    height:40px;
+    border-radius:30px;
+    display:inline-block;
+    margin-right:5px;
+    vertical-align: middle;
+    background:url(cloudplayer-sprite.png) #373737 no-repeat -500px -500px;
+    background-size:100px 100px;
+    cursor: pointer;
+}
+.cloudplayer-play{
+    background-position: -34px 5px;
+}
+.cloudplayer-previous,
+.cloudplayer-next{
+    width:30px;
+    height:30px;
+    background-position: 1px -32px;
+}
+.cloudplayer-next{
+    background-position: 1px -56px;
+}
+.cloudplayer-soundcloud-branding{
+    background:url(logo_big_black.png) no-repeat;
+    width:65px;
+    height:45px;
+    display:inline-block;
+    vertical-align: top;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.cloudplayer-title-label{
+    display:inline-block;
+    cursor: pointer;
+    vertical-align: top;
+    width:335px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding:10px 0;
+    color:#555;
+}
